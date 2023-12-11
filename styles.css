@@ -1,0 +1,101 @@
+.image {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+input {
+    display: inline-block;
+    width: 300px;
+}
+.formdiv {
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: aliceblue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.results {
+    background-color: white;
+}
+
+h1 {
+    background-color: rgb(186, 186, 186);
+    border: 50px;
+    border-color:  rgb(186, 186, 186);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    margin-top: 5px;
+    display: block;
+}
+
+.divButton {
+    text-align: right;
+    width: 1100px;
+}
+
+
+.meme {
+    position: relative;
+    text-align:center;
+    display: inline-block;
+    margin: 20px;
+    transition: filter 0.3 ease;
+}
+
+.meme:hover {
+    filter:brightness(0.7);
+}
+
+.x {
+position: absolute;
+inset: 0;
+opacity: 0;
+text-align: center;
+top: 25%;
+
+z-index: 3;
+font-size: 150px;
+font-weight: bold;
+color: white;
+}
+.x:hover {
+    opacity: 1;
+}
+
+.topText {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align:center;
+    z-index: 1;
+    color: white;
+    font-family: Arial;
+    font-size: x-large;
+}
+
+.bottomText {
+    position: absolute;
+    text-align:center;
+    z-index: 1;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    font-family: Arial;
+    font-size: x-large;
+
+    
+}

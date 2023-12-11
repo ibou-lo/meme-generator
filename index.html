@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <form id="newMemeForm">
+            <h1>Meme Up Your Life</h1>
+            <div class="container">
+                <div class="item">
+                    
+                    <ul>
+                        <li><label for="image-url">Input Image URL</label></li>
+                        <li><label for="top-text">Input Top Text</label></li>
+                        <li><label for="bottom-text">Input Bottom Text</label></li>
+                    </ul>    
+                </div>
+                <div class="item">
+                    <ul>
+                        <li><input id="image-url" type="file" required></li>
+                        <li><input id="top-text" type="text" required></li>
+                        <li><input id="bottom-text" type="text" required></li>
+                        <li><button type="submit">Girl Power!</button></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+
+        <output id="output"></output>
+</body>
+<script src="script.js"></script>
+</html>
+
